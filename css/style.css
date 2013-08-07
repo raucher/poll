@@ -347,3 +347,7 @@ footer .copyright>strong{ margin-left:15%;}
 		line-height:32px;
 	}
 }
+
+#demo-mode-alert .alert{
+    margin: 0; padding: 2px;
+}

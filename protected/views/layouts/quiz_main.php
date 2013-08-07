@@ -36,14 +36,19 @@
 <body id="main">
 <div id="wrapper">
 <header class="row-fluid">
-    <?php if(Yii::app()->user->hasFlash('warning'))
-    {
-        $this->widget('bootstrap.widgets.TbAlert', array(
-            'block'=>true,
-            'closeText'=>false,
-        ));
-    }
-    ?>
+    <?php $this->widget('bootstrap.widgets.TbAlert', array(
+        'id'=>'demo-mode-alert',
+        'alerts'=>array( // configurations per alert type
+            'demoMode'=>array(
+                'block'=>true,
+                'fade'=>false,
+                'closeText'=>false,
+            ),
+        ),
+        'htmlOptions'=>array(
+            'class'=>'text-center',
+        ),
+    )); ?>
 	<div class="navbar pull-left language">
     	<div class="navbar-inner">
 	    	<ul class="nav">

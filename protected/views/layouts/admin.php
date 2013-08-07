@@ -28,10 +28,6 @@
 
 	<script src="<?php echo $adminAssets ?>/js/bootstrap.min.js"></script>
 
-    <?php /*Yii::app()->clientScript->registerPackage('jsMigrate') */?><!--
-    <?php /*Yii::app()->clientScript->registerPackage('statCircles') */?>
-    --><?php /*Yii::app()->clientScript->registerPackage('statPieChart') */?>
-
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link href="<?php echo $adminAssets ?>/css/user-styles.css" rel="stylesheet">
 
@@ -39,14 +35,19 @@
 <body>
 
     <div id="wrapper" class="container-fluid">
-        <?php if(Yii::app()->user->hasFlash('warning'))
-                {
-                    $this->widget('bootstrap.widgets.TbAlert', array(
-                        'block'=>true,
-                        'closeText'=>false,
-                    ));
-                }
-        ?>
+        <?php $this->widget('bootstrap.widgets.TbAlert', array(
+            'id'=>'demo-mode-alert',
+            'alerts'=>array( // configurations per alert type
+                'demoMode'=>array(
+                    'block'=>true,
+                    'fade'=>false,
+                    'closeText'=>false,
+                ),
+            ),
+            'htmlOptions'=>array(
+                'class'=>'text-center',
+            ),
+        ));?>
         <?php if($this->navMenu): ?>
             <div id="admin-bar" class="navbar">
                 <div class="navbar-inner">

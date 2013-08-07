@@ -51,10 +51,10 @@ class Controller extends CController
     {
         if(Yii::app()->user->hasState('demoUserId'))
         {
-            Yii::app()->user->setFlash('warning',
+            Yii::app()->user->setFlash('demoMode',
                 '<strong>You are in Demo Mode!</strong>
-                 You can administrate site within the dashboard and changes will be applied to
-                 frontend until you log off!');
+                 <p>You can administrate site within the dashboard and changes will be applied to
+                 frontend until you log off!</p>');
         }
         $fChain->run();
     }

@@ -42,8 +42,3 @@
 		echo CHtml::endForm(); 
 	?>
 </div><!-- .form -->
-
-<pre>
-	<?php print_r($_POST['UserAnswer']); ?>
-	<?php print_r($_POST['CustomContent']); ?>
-</pre>
