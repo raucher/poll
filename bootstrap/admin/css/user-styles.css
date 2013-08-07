@@ -4,3 +4,7 @@
 #manage-data table a.update, #manage-data table a.delete{
     padding:0 5px;
 }
+
+#demo-mode-alert .alert{
+    margin: 0; padding: 2px;
+}
