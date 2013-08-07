@@ -1,4 +1,11 @@
 <?php
+/**
+ * Class FaceControl
+ * Login form for respondents
+ *
+ * @package poll
+ * @author raucher <myplace4spam@gmail.com>
+ */
 
 class FaceControl extends CFormModel{
 	

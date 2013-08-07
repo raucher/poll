@@ -11,8 +11,8 @@
  * @property $sourceDbPathAlias string Alias of the source db folder
  * @property $sourceDbFileName string Name of the source db file
  *
- * @package photo
- * @author Maxim Muizhinikas
+ * @package poll
+ * @author raucher <myplace4spam@gmail.com>
  */
 class DemoModeBehavior extends CBehavior
 {

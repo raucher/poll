@@ -1,7 +1,11 @@
 <?php
 
 /**
+ * Class Admin
  * Model to store admin data
+ *
+ * @package poll
+ * @author raucher <myplace4spam@gmail.com>
  */
 class Admin extends CActiveRecord{
 	

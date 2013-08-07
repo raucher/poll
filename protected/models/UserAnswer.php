@@ -1,8 +1,12 @@
 <?php
 
 /**
-* 
-*/
+ * Class UserAnswer
+ * Model for user answers
+ *
+ * @package poll
+ * @author raucher <myplace4spam@gmail.com>
+ */
 class UserAnswer extends CActiveRecord{
 	
 	public static function model($className = __CLASS__ ){

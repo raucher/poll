@@ -1,7 +1,11 @@
 <?php
 
 /**
-* 
+ * Class AdminIdentity
+ * Admin authentication class
+ *
+ * @package poll
+ * @author raucher <myplace4spam@gmail.com>
 */
 class AdminIdentity extends CUserIdentity{
 	
@@ -34,13 +38,6 @@ class AdminIdentity extends CUserIdentity{
     }
 
 	public function authenticate(){
-		/*$admin = Admin::model()->findByAttributes(array(
-											'login' => $this->username,));
-		if($admin==null)
-			$this->errorCode = self::ERROR_USERNAME_INVALID;
-		else if($admin->passwrd != crypt($this->password, $admin->passwrd))
-			$this->errorCode = self::ERROR_PASSWORD_INVALID;*/
-		//if($this->password !== 'm#rsu1991@google' || $this->username !== 'oxAna')
         if(!$this->demoModeUserLogin())
         {
             $admin = Admin::model()->findByAttributes(array('login' => $this->username,));

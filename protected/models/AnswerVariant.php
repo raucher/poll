@@ -1,4 +1,11 @@
 <?php
+/**
+ * Class AnswerVariant
+ * Model to store answer variants
+ *
+ * @package poll
+ * @author raucher <myplace4spam@gmail.com>
+ */
 
 class AnswerVariant extends CActiveRecord{
 

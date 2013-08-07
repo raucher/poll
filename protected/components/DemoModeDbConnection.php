@@ -4,8 +4,8 @@
  * Class DemoModeDbConnection
  * Changes db connection according to user's id and cdn
  *
- * @package photo
- * @author Maxim Muizhinikas
+ * @package poll
+ * @author raucher <myplace4spam@gmail.com>
  */
 class DemoModeDbConnection extends CDbConnection
 {

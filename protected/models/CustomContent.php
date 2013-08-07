@@ -1,8 +1,12 @@
 <?php
 
 /**
-* 
-*/
+ * Class CustomContent
+ * Model for custom content
+ *
+ * @package poll
+ * @author raucher <myplace4spam@gmail.com>
+ */
 class CustomContent extends CActiveRecord{
 	
 	public static function model($className = __CLASS__){

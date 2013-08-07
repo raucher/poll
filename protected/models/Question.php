@@ -1,8 +1,12 @@
 <?php
 
 /**
-* Model for questions and aggregated data belonging to them
-*/
+ * Class Question
+ * Model for questions and aggregated data belonging to them
+ *
+ * @package poll
+ * @author raucher <myplace4spam@gmail.com>
+ */
 class Question extends CActiveRecord{
 
     public function behaviors()
