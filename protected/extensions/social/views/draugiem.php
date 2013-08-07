@@ -1,0 +1,3 @@
+<div class="draugiem social-<?php echo $this->style;?>">
+	<iframe height="<?php echo $params['height']?>" width="<?php echo $params['width']?>" frameborder="<?php echo $params['frameBorder']?>" src="http://www.draugiem.lv/say/ext/like.php?title=<?php echo $params['title']?>&amp;url=<?php echo $params['url']//echo urlencode($params['url']);?>&amp;titlePrefix=<?php echo $params['titlePrefix']?>"></iframe>
+</div>

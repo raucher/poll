@@ -1,0 +1,6 @@
+#manage-data .table.items{
+    background: #fcfcfc;
+}
+#manage-data table a.update, #manage-data table a.delete{
+    padding:0 5px;
+}

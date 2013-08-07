@@ -1,0 +1,4 @@
+	<div class="facebook social-<?php echo $this->style;?>">
+		<div id="fb-root"></div>
+		<iframe src="http://www.facebook.com/plugins/like.php?app_id=238907556143866&amp;href=<?php echo urlencode($params['href']);?>&amp;send=false&amp;layout=button_count&amp;width=<?php echo $params['width'];?>&amp;show_faces=false&amp;action=<?php echo urlencode($params['action']);?>&amp;colorscheme=<?php echo urlencode($params['colorscheme']);?>&amp;font=trebuchet+ms&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:<?php echo $params['width'];?>px; height:21px;"></iframe>
+	</div>

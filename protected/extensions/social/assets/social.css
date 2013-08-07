@@ -1,0 +1,11 @@
+.social{
+    margin: 3px 0;
+}
+
+.social-horizontal{
+	float:left; margin:3px 5px;
+}
+
+.social-vertical{
+    margin: 2px 0;
+}

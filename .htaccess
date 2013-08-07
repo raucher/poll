@@ -1,0 +1,16 @@
+# Custom Adds
+#php_flag zlib.output_compression On
+#php_value zlib.output_compression_level 5
+
+AddDefaultCharset utf-8 
+AddType text/plain .txt
+
+Options -Indexes
+
+# RewriteBase /
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule . index.php

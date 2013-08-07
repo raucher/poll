@@ -1,0 +1,349 @@
+html, body{
+	height:100%;
+	background:url('../img/bg_noise.png');
+}
+#wrapper{
+	min-height:92.3%;
+	background:url('../img/bg_noise.png') !important;
+	padding-bottom:40px;
+	overflow:hidden;
+}
+header, footer{
+	background-image: -o-linear-gradient(#369F0F, #078F02);
+	background-image: -webkit-linear-gradient(#369F0F, #078F02);
+	background-image: linear-gradient(#369F0F, #078F02);
+	color:#eee;
+}
+#main .block-tag{display:block;}
+
+/********** HEADER ******************/
+.navbar{
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+}
+#main .navbar-inner{
+	background-image: -o-linear-gradient(#59BF00, #369C00) !important;
+	background-image: -webkit-linear-gradient(#59BF00, #369C00) !important;
+	background-image: linear-gradient(#59BF00, #369C00) !important;
+	border-radius:0 !important;
+	border:none;
+}
+#main .navbar *{
+	color:#f5f5f5 !important;
+	text-shadow:none !important;
+}
+#main .navbar .active *{
+	background:none !important;
+	background-color:#009900 !important;
+	color:#fff !important;
+}
+#main .navbar .nav li:hover{
+	background-color:#00AA00;
+}
+#main .language{
+	margin-right:1px;
+}
+#main .language .navbar-inner{
+	padding-right:0;
+	padding-left:5px;
+}
+header .social-buttons{
+	margin:5px 0 0 10px;
+}
+
+/******** SPOILER **********************/
+section.spoiler{
+	min-height:300px;
+	background:#B3DF27;
+	border-top:6px solid #7CA800;
+	border-bottom:6px solid #7CA800;
+}
+section.quiz-spoiler{
+	min-height:485px;
+}
+
+/*********** SLIDER ********************/
+
+#quiz-form .flex-direction-nav li{
+	position:static; float:left;
+	width:30%; padding:0 9%;
+}
+#quiz-form .flex-control-nav{
+	bottom:auto; top:-32px;
+}
+.flex-control-nav li{
+	margin:0 8px;
+}
+
+.flex-control-nav li:hover{
+	/** On hover collapsing fix **/
+	margin:0 4px;
+}
+#quiz-form .flex-control-paging li a.flex-active:hover{
+	/** On hover collapsing fix **/
+	margin:0 4px;
+}
+
+#quiz-form .flex-control-paging li a{
+	border-radius:0; box-shadow:none;
+	background:#1E9708; width:14px; height:14px;
+}
+#quiz-form .flex-control-paging li a.flex-active, 
+#quiz-form .flex-control-paging li a:hover{
+	border:4px solid #7CA800; background:#fff;
+}
+
+/************ QUIZ FORM ****************/
+
+#quiz-form{ 
+	margin-top:42px; background:none; 
+	border:none; box-shadow:none;
+}
+#quiz-form .round-block{ 
+	margin-bottom:20px; 
+	min-height:300px;
+	padding-bottom:20px;
+}
+#quiz-form legend{
+	margin-bottom:26px; padding-top:10px; 
+	font-size:26px;
+}
+#quiz-form label{
+	padding-left:12px; font-size:18px;
+	margin-bottom:0; line-height:20px;
+}
+#quiz-form label{
+		margin-bottom:0; line-height:20px;
+	}
+#quiz-form .slides input{
+	margin-left:10px;
+	margin-right:10px;
+}
+#quiz-form .slides .custom-answer{
+	height:100px;
+}
+#quiz-form .send-res{
+	width:30% !important;
+}
+
+/******** CONTENT SECTION **************/
+.round-block{
+	padding:5px 20px;
+	background:#FBFEF3;
+	border:3px solid #7CA800;
+	border-radius:5px;
+
+	-webkit-box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.78);
+	-moz-box-shadow:    0px 0px 5px rgba(50, 50, 50, 0.78);
+	box-shadow:         0px 0px 5px rgba(50, 50, 50, 0.78);
+
+	/*-webkit-box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.55);
+	-moz-box-shadow:    3px 4px 5px rgba(50, 50, 50, 0.55);
+	box-shadow:         3px 4px 5px rgba(50, 50, 50, 0.55);*/
+}
+.round-block .privacy{
+	margin-top:12px;
+	margin-bottom:4px;
+	font-size:16px !important;
+	line-height:22px !important;
+}
+
+#login{
+	margin-top:-42px;
+}
+
+/*********** HERO UNIT ****************/
+
+#main .hero-unit{
+	margin-bottom:0; border-radius:0;
+	background:none;
+	color:#ffffff;
+}
+#main .hero-unit h1{
+	/* 940px style */
+	/*text-indent:-32px;*/
+}
+#main .hero-unit h1 small{ 
+	margin-left:5%; color:#ffffff; 
+}
+#main .hero-unit p{
+	margin:20px 0 0 10px;
+	color:#555;
+}
+#main .hero-unit .pic{
+	margin:-85px -20px 10px 10px;
+	padding:5px; background:#fff;
+	border-radius:3px;
+	-webkit-box-shadow: 3px 3px 7px rgba(50, 50, 50, 0.8);
+	-moz-box-shadow:    3px 3px 7px rgba(50, 50, 50, 0.8);
+	box-shadow:    		3px 3px 7px rgba(50, 50, 50, 0.8);
+}
+#main .hero-unit .pic img{
+	max-width:100%;
+}
+
+#main .thanks{
+	margin-top:32px; 
+	min-height:300px;
+	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+	text-shadow:0 0 3px #999;
+	color:#eee;
+}
+#main .thanks small{
+	margin-top:20px;
+	text-shadow:0 0 1px #999;
+}
+
+footer{ margin-top:-30px; height:30px; padding: 10px 0 5px; overflow:hidden; display:block;}
+footer .developer{ margin-right:20px; font-size:11px;}
+footer .developer strong{ padding:0 20px; }
+footer .copyright{ text-align:center;}
+footer .copyright>strong{ margin-left:15%;}
+
+
+/********** TBootstrap style Addons ******************/
+
+/*** inputs with light-green box-shadow ***/
+#login input[type="text"]:focus,
+#quiz-form textarea:focus {
+	border-color: rgba(179, 223, 39, 0.7);
+	outline: 0;
+	outline: thin dotted \9;
+	/* IE6-9 */
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(179, 223, 39, 0.6);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(179, 223, 39, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(179, 223, 39, 0.6);
+}
+
+/*** error style ***/
+#login .error {
+  color: #b94a48;
+}
+
+#login input[type="text"].error {
+  border-color: #b94a48;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+#login input[type="text"].error:focus{
+  border-color: #953b39;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+}
+
+
+#quiz-form .send-res{
+	margin-bottom:-55px; margin-right:100px;
+	position:relative; z-index:99;
+}
+#quiz-form .send-res.flex-disabled, #quiz-form .send-res.flex-hidden{
+	display:none;
+}
+
+.quiz-spoiler{
+	margin-top:38px; margin-bottom:0;
+}
+
+/********* Admin Side Styles*******************/
+
+
+/***** Fine-tuning of responsive features *****/
+
+@media (min-width: 1200px){
+	#main .hero-unit h1{
+		text-indent:0;
+	}
+	#quiz-form label{
+		margin-bottom:16px;
+		font-size:18px; line-height:24px;
+	}
+}
+
+@media (min-width: 979px) and (max-width: 1199px){
+	#main .hero-unit h1{
+		font-size:52px; text-indent:-32px;
+	}
+	#main .hero-unit p{
+		font-size:16px; line-height:1.3em;
+	}
+	#quiz-form{
+		margin-bottom:30px;
+	}
+	#quiz-form label{
+		margin-bottom:0; line-height:20px;
+	}
+	.spoiler.quiz-spoiler{
+		margin-top:24px; min-height:400px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 979px){
+	#main .hero-unit h1{
+		font-size:40px; text-indent:-32px;
+	}
+	.pic{
+		margin-top:-65px !important;
+	}
+	#quiz-form{
+		margin-bottom:30px;
+	}
+	.spoiler.quiz-spoiler{
+		margin-top:24px; min-height:380px;
+	}
+}
+
+/***** Mobiles *****/
+@media (max-width: 767px){
+	body{ padding:0; }
+	.container{ padding:0 10px; }
+	#main .hero-unit h1{ font-size:38px; }
+	#main .privacy{
+		font-size:14px !important;
+		margin:0 !important;
+		margin-bottom:2px !important;
+	}
+	.pic{
+		margin-top:-55px !important;
+	}
+	#quiz-form .send-res{
+		margin-right:20% !important;
+	}
+	.spoiler.quiz-spoiler{
+		margin-top:24px; min-height:300px;
+	}
+}
+@media (max-width:550px){
+	header .social-buttons{
+		float:right !important;
+		width:220px !important;
+	}
+	header .social-buttons .social-horizontal{
+		margin:3px 1px;
+	}
+}
+@media (max-width: 505px){
+	#quiz-form{ margin-top:50px; }
+	#quiz-form .flex-control-nav{ top:-42px; }
+	#main .hero-unit h1{ 
+		font-size:28px; text-indent:-10px;
+	}
+	#main .hero-unit h1 small{
+		font-size:18px; margin-top:8px;
+	}
+	#main .hero-unit p{
+		font-size:16px; line-height:20px;
+	}
+	#main .privacy{
+		margin-top:0; font-size:14px !important;
+	}
+	/** Thanks page's hero-unit **/
+	.thanks .hero-unit{ padding:60px 20px !important; }
+	.thanks .hero-unit h1{ font-size:32px !important; }
+	.thanks .hero-unit h1 small{
+		font-size:22px !important;
+		line-height:32px;
+	}
+}

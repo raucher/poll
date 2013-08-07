@@ -1,0 +1,9 @@
+#quiz-form .slides li{
+	display:list-item;
+}
+#quiz-form .send-res{
+	display:block !important;
+	width:80% !important;
+	margin:auto !important;
+	float:none;
+}
