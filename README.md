@@ -1,6 +1,5 @@
 # Yii powered poll management system.
-### Done just for training purposes so use it carefully
-================================
+### Done just for training purposes so use it carefully!
 
 ## A little about the system
 
