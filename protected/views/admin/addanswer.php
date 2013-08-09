@@ -56,6 +56,7 @@
     </div><!-- .box -->
 </div>
 <?php
+var_dump($_POST);
 $addDeleteVariantJs = "
 jQuery.pollNs = {variantCounter : 0};
 jQuery('.add-variant').click(function(e){
@@ -67,7 +68,7 @@ jQuery('.add-variant').click(function(e){
         jQuery(this).attr({
             'name': jQuery(this).attr('name').replace(reName,'$1'+i+'$2'),
             'id': jQuery(this).attr('id').replace(reId,'$1'+i+'$2'),
-            'value': '',
+            'value': (jQuery(this).is(':checkbox, :hidden')) ? jQuery(this).val() : '',
             'checked': false
         });
     });

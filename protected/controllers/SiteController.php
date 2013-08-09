@@ -79,7 +79,8 @@ class SiteController extends Controller
 	public function actionQuiz(){
 		$this->pageTitle = Yii::t('poll', 'Poll');
 		
-		$questions = Question::model()->with('customVariant', 'answerVariant')->findAll();
+		//$questions = Question::model()->with('customVariant', 'answerVariant')->findAll();
+		$questions = Question::model()->with('everyVariant')->findAll();
 
 		if(isset($_POST['UserAnswer'])){
 			
